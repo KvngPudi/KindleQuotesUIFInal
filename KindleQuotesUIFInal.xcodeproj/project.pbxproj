@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0DAB78312C5F131C00A15C43 /* KindleQuotesUIFInalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB78302C5F131C00A15C43 /* KindleQuotesUIFInalApp.swift */; };
-		0DAB78332C5F131C00A15C43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB78322C5F131C00A15C43 /* ContentView.swift */; };
 		0DAB78352C5F131F00A15C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAB78342C5F131F00A15C43 /* Assets.xcassets */; };
 		0DAB78382C5F131F00A15C43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAB78372C5F131F00A15C43 /* Preview Assets.xcassets */; };
 		0DAB78422C5F131F00A15C43 /* KindleQuotesUIFInalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB78412C5F131F00A15C43 /* KindleQuotesUIFInalTests.swift */; };
 		0DAB784C2C5F132000A15C43 /* KindleQuotesUIFInalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB784B2C5F132000A15C43 /* KindleQuotesUIFInalUITests.swift */; };
 		0DAB784E2C5F132000A15C43 /* KindleQuotesUIFInalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB784D2C5F132000A15C43 /* KindleQuotesUIFInalUITestsLaunchTests.swift */; };
+		0DAB78612C5F155A00A15C43 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB78602C5F155A00A15C43 /* AccountView.swift */; };
+		0DAB78632C5F15B600A15C43 /* KindleTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB78622C5F15B600A15C43 /* KindleTabView.swift */; };
+		0DAB78652C5F15E000A15C43 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB78642C5F15E000A15C43 /* LibraryView.swift */; };
+		0DAB78682C5F16FB00A15C43 /* AmazonLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB78672C5F16FB00A15C43 /* AmazonLoginView.swift */; };
+		0DAB786A2C5F175600A15C43 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB78692C5F175600A15C43 /* LoginViewModel.swift */; };
+		0DAB78702C5F17EF00A15C43 /* AmazonLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB786F2C5F17EF00A15C43 /* AmazonLoginButton.swift */; };
+		0DAB78732C5F1B3000A15C43 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB78722C5F1B3000A15C43 /* Book.swift */; };
+		0DAB78752C5F1B8800A15C43 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB78742C5F1B8800A15C43 /* BookCell.swift */; };
+		0DAB78772C5F1BFF00A15C43 /* BookRemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB78762C5F1BFF00A15C43 /* BookRemoteImage.swift */; };
+		0DAB787C2C5F1D4000A15C43 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB787B2C5F1D4000A15C43 /* NetworkManager.swift */; };
+		0DAB787E2C5F1E2A00A15C43 /* KQError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB787D2C5F1E2A00A15C43 /* KQError.swift */; };
+		0DAB78812C5F204100A15C43 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB78802C5F204100A15C43 /* BookDetailView.swift */; };
+		0DAB78832C5F2A5000A15C43 /* HighlightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB78822C5F2A5000A15C43 /* HighlightCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +48,6 @@
 /* Begin PBXFileReference section */
 		0DAB782D2C5F131C00A15C43 /* KindleQuotesUIFInal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindleQuotesUIFInal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DAB78302C5F131C00A15C43 /* KindleQuotesUIFInalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindleQuotesUIFInalApp.swift; sourceTree = "<group>"; };
-		0DAB78322C5F131C00A15C43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0DAB78342C5F131F00A15C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DAB78372C5F131F00A15C43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DAB783D2C5F131F00A15C43 /* KindleQuotesUIFInalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindleQuotesUIFInalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +55,20 @@
 		0DAB78472C5F132000A15C43 /* KindleQuotesUIFInalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindleQuotesUIFInalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DAB784B2C5F132000A15C43 /* KindleQuotesUIFInalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindleQuotesUIFInalUITests.swift; sourceTree = "<group>"; };
 		0DAB784D2C5F132000A15C43 /* KindleQuotesUIFInalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindleQuotesUIFInalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0DAB78602C5F155A00A15C43 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		0DAB78622C5F15B600A15C43 /* KindleTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindleTabView.swift; sourceTree = "<group>"; };
+		0DAB78642C5F15E000A15C43 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		0DAB78672C5F16FB00A15C43 /* AmazonLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonLoginView.swift; sourceTree = "<group>"; };
+		0DAB78692C5F175600A15C43 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		0DAB786F2C5F17EF00A15C43 /* AmazonLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonLoginButton.swift; sourceTree = "<group>"; };
+		0DAB78712C5F19DA00A15C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0DAB78722C5F1B3000A15C43 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		0DAB78742C5F1B8800A15C43 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		0DAB78762C5F1BFF00A15C43 /* BookRemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRemoteImage.swift; sourceTree = "<group>"; };
+		0DAB787B2C5F1D4000A15C43 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0DAB787D2C5F1E2A00A15C43 /* KQError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KQError.swift; sourceTree = "<group>"; };
+		0DAB78802C5F204100A15C43 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		0DAB78822C5F2A5000A15C43 /* HighlightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +119,12 @@
 		0DAB782F2C5F131C00A15C43 /* KindleQuotesUIFInal */ = {
 			isa = PBXGroup;
 			children = (
+				0DAB78712C5F19DA00A15C43 /* Info.plist */,
+				0DAB786B2C5F17B000A15C43 /* Utilities */,
+				0DAB785D2C5F13C900A15C43 /* Model */,
+				0DAB785B2C5F13AF00A15C43 /* Screens */,
+				0DAB785A2C5F13A700A15C43 /* Views */,
 				0DAB78302C5F131C00A15C43 /* KindleQuotesUIFInalApp.swift */,
-				0DAB78322C5F131C00A15C43 /* ContentView.swift */,
 				0DAB78342C5F131F00A15C43 /* Assets.xcassets */,
 				0DAB78362C5F131F00A15C43 /* Preview Content */,
 			);
@@ -125,6 +154,111 @@
 				0DAB784D2C5F132000A15C43 /* KindleQuotesUIFInalUITestsLaunchTests.swift */,
 			);
 			path = KindleQuotesUIFInalUITests;
+			sourceTree = "<group>";
+		};
+		0DAB785A2C5F13A700A15C43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB786E2C5F17DE00A15C43 /* Cells */,
+				0DAB786D2C5F17D100A15C43 /* Image */,
+				0DAB786C2C5F17CB00A15C43 /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DAB785B2C5F13AF00A15C43 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB78622C5F15B600A15C43 /* KindleTabView.swift */,
+				0DAB787F2C5F202C00A15C43 /* BookDetailView */,
+				0DAB78662C5F16E500A15C43 /* AmazonLoginView */,
+				0DAB785F2C5F154500A15C43 /* LibraryView */,
+				0DAB785E2C5F153D00A15C43 /* AccountView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0DAB785D2C5F13C900A15C43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB78722C5F1B3000A15C43 /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DAB785E2C5F153D00A15C43 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB78602C5F155A00A15C43 /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		0DAB785F2C5F154500A15C43 /* LibraryView */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB78642C5F15E000A15C43 /* LibraryView.swift */,
+			);
+			path = LibraryView;
+			sourceTree = "<group>";
+		};
+		0DAB78662C5F16E500A15C43 /* AmazonLoginView */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB78672C5F16FB00A15C43 /* AmazonLoginView.swift */,
+				0DAB78692C5F175600A15C43 /* LoginViewModel.swift */,
+			);
+			path = AmazonLoginView;
+			sourceTree = "<group>";
+		};
+		0DAB786B2C5F17B000A15C43 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB78782C5F1C2A00A15C43 /* Managers */,
+				0DAB787D2C5F1E2A00A15C43 /* KQError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0DAB786C2C5F17CB00A15C43 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB786F2C5F17EF00A15C43 /* AmazonLoginButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		0DAB786D2C5F17D100A15C43 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB78762C5F1BFF00A15C43 /* BookRemoteImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		0DAB786E2C5F17DE00A15C43 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB78742C5F1B8800A15C43 /* BookCell.swift */,
+				0DAB78822C5F2A5000A15C43 /* HighlightCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0DAB78782C5F1C2A00A15C43 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB787B2C5F1D4000A15C43 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0DAB787F2C5F202C00A15C43 /* BookDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB78802C5F204100A15C43 /* BookDetailView.swift */,
+			);
+			path = BookDetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +391,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DAB78332C5F131C00A15C43 /* ContentView.swift in Sources */,
+				0DAB78752C5F1B8800A15C43 /* BookCell.swift in Sources */,
+				0DAB78732C5F1B3000A15C43 /* Book.swift in Sources */,
+				0DAB78832C5F2A5000A15C43 /* HighlightCell.swift in Sources */,
+				0DAB78772C5F1BFF00A15C43 /* BookRemoteImage.swift in Sources */,
+				0DAB78652C5F15E000A15C43 /* LibraryView.swift in Sources */,
+				0DAB787C2C5F1D4000A15C43 /* NetworkManager.swift in Sources */,
+				0DAB78702C5F17EF00A15C43 /* AmazonLoginButton.swift in Sources */,
+				0DAB787E2C5F1E2A00A15C43 /* KQError.swift in Sources */,
+				0DAB78612C5F155A00A15C43 /* AccountView.swift in Sources */,
+				0DAB786A2C5F175600A15C43 /* LoginViewModel.swift in Sources */,
+				0DAB78682C5F16FB00A15C43 /* AmazonLoginView.swift in Sources */,
+				0DAB78632C5F15B600A15C43 /* KindleTabView.swift in Sources */,
+				0DAB78812C5F204100A15C43 /* BookDetailView.swift in Sources */,
 				0DAB78312C5F131C00A15C43 /* KindleQuotesUIFInalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +571,7 @@
 				DEVELOPMENT_TEAM = TSTG769ZPP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KindleQuotesUIFInal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +601,7 @@
 				DEVELOPMENT_TEAM = TSTG769ZPP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KindleQuotesUIFInal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
