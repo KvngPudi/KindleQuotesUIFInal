@@ -16,6 +16,8 @@ struct BookDetailView: View {
                 BookRemoteImage(urlString: book.image_url)
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 250, height: 300)
+                    .padding(.bottom, 10)
+                    .padding(.top, -30)
                 
                 Text(book.title)
                     .font(.headline)
